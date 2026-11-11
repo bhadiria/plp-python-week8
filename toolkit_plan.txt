@@ -1,0 +1,53 @@
+
+BANKING MANAGEMENT TOOLKIT — PROJECT PLAN
+
+1. What the program does
+This Python banking management system allows users to create a bank account, deposit money, 
+withdraw money, check their account balance, and exit through a menu-driven interface.
+
+2. Exact menu text
+
+Welcome to the Banking System!
+
+Please choose an option:
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Exit
+
+Enter your choice (1-5):
+
+3. Tools and Python concepts
+
+Tool 1: Create Account
+- Uses a conditional to check whether an account already exists.
+- Uses a list to store account information.
+- Uses an f-string to display the account details.
+
+Tool 2: Deposit Money
+- Uses input() to ask for the deposit amount.
+- Uses a conditional to check that the amount is positive.
+- Updates the account balance.
+- Uses an f-string to confirm the deposit.
+
+Tool 3: Withdraw Money
+- Uses a conditional to check the withdrawal amount and available balance.
+- Prevents withdrawals that exceed the balance.
+- Uses an f-string to display the result.
+
+Tool 4: Check Balance
+- Uses a conditional to check whether an account exists.
+- Uses an f-string to display the current balance.
+
+Tool 5: Exit
+- Uses a conditional to end the menu loop.
+- Displays a friendly goodbye message.
+
+4. Overall program concepts
+- while loop: repeats the menu until the user exits.
+- if, elif, and else: handle menu choices and decisions.
+- list: stores account information and updates it while the program runs.
+- f-strings: display clear, friendly messages.
+- functions: organize each banking tool.
+- try and except: handle invalid numeric input without crashing.
